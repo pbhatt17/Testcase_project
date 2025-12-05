@@ -5,7 +5,7 @@ from typing import Optional
 
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 
 # ----------------------------
@@ -179,4 +179,5 @@ if run:
 # Footer
 st.divider()
 st.caption("Built with Streamlit + LangChain OpenAI. No data is persisted unless you enable saving.")
+
 
